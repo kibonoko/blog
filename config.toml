@@ -5,7 +5,7 @@
 #
 #=========================================================================================
 
-base_url = "https://www.kibonoko.com"
+base_url = "https://kibonoko.github.io/blog/"
 title = "kibonoko"
 description = "This is my blog"
 default_language = "en"
