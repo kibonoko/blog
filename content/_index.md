@@ -3,7 +3,7 @@ template = 'home.html'
 
 [extra]
 lang = 'en'
-footer = true
+footer = false
 name = "kibonoko"
 bio = "I write about things occasionally"
 links = [

@@ -38,7 +38,7 @@ sections = [
 
 blog_section_path = "/posts"
 back_link_text = "back"
-force_theme = "light"
+force_theme = false
 footer_copyright = "© 2026 kibonoko"
 footer_credits = false
 not_found_error_text = "404 Not Found"
