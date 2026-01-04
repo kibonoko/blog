@@ -9,17 +9,14 @@ generate_feeds = true
 
 [extra]
 lang = "en"
-
 title = "Posts"
-subtitle = "I write about ...."
-
+subtitle = "I write about things occasionally. You can read that stuff here."
 date_format = "%b %-d, %Y"
-
-categorized = false # posts can be categorized
-back_to_top = true # show back-to-top button
-toc = false # show table-of-contents
-comment = false # enable comment
-copy = true # show copy button in code block
+categorized = false
+back_to_top = true
+toc = false
+comment = false
+copy = true
 
 outdate_alert = false
 outdate_alert_days = 12

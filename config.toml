@@ -1,10 +1,3 @@
-# serene v5.5.0
-#
-# - docs: https://github.com/isunjn/serene/blob/latest/USAGE.md
-# - check for updates: https://github.com/isunjn/serene/releases
-#
-#=========================================================================================
-
 base_url = "https://kibonoko.github.io/blog/"
 title = "kibonoko"
 description = "This is my blog"
@@ -12,10 +5,10 @@ default_language = "en"
 theme = "serene"
 output_dir = "public"
 compile_sass = true
-minify_html = false # Keep this false, as it may cause issues with some styles
-build_search_index = false # Keep this false, search is temporarily unsupported
-generate_feeds = false # Whether to generate a feed file in root, read docs for more info about rss feed
-feed_filenames = ["feed.xml"] # "feed.xml" | "atom.xml" | "rss.xml", read docs for more info
+minify_html = false
+build_search_index = false
+generate_feeds = true 
+feed_filenames = ["feed.xml"]
 taxonomies = [{ name = "tags" }, { name = "categories" }]
 
 [markdown]
@@ -37,30 +30,19 @@ paths = "on"
 taxonomies = "on"
 anchors = "on"
 
-#=========================================================================================
-
 [extra]
-
 sections = [
   { name = "posts", path = "/posts", is_external = false },
   { name = "about", path = "/about", is_external = false }
-  # { name = "tags", path = "/tags", is_external = false },
-  # { name = "github", path = "https://github.com/<your-username>", is_external = true },
 ]
 
 blog_section_path = "/posts"
-
-toc = false
-
-back_link_text = "Back" # Text of the back button
+back_link_text = "back"
 force_theme = "light"
-
-footer_copyright = "© 2025 <your-name>"
-footer_credits = true # Whether to show "Built with zola and serene" in footer
-
+footer_copyright = "© 2026 kibonoko"
+footer_credits = false
 not_found_error_text = "404 Not Found"
 not_found_recover_text = "« back to home »"
-
-reaction = false # Whether to enable anonymous emoji reactions (Note: You need to set up a working api endpoint to enable this feature)
-reaction_align = "right" # "left" | "center" | "right"
+reaction = false
+reaction_align = "right"
 reaction_endpoint = "https://example.com/api/reaction"

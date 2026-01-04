@@ -1,16 +1,29 @@
 +++
-title = "My first post"
+title = "Things to write about"
 date = 2026-01-04
 +++
 
-This is my first blog post.
+Hello, I am **kibonoko**.
 
-# Heading 1
+I plan to write about things occasionally.
 
-## Heading 2
+You can read that stuff here. 
 
-# Heading 1
+Here are some things I plan to write about.
 
-## Heading 2
+# Japan
 
-### Heading 3
+I moved to Japan in 2013. I am a permanent resident of Japan.
+
+# Bitcoin
+
+Bitcoin is money. It is the very best form of money. I encourage everyone
+to own and use Bitcoin.
+
+# Family
+
+I have a wife, a son and daughter. 
+
+# Programming
+
+I work as a software engineer. I enjoy programming.
