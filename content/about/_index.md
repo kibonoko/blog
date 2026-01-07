@@ -21,12 +21,4 @@ I was born in England.
 
 Now I live in Japan.
 
-I have a wife, a son and a daughter.
-
-I work as a software engineer.
-
-I used to make video games professionally. Now I don't.
-
-Now I work in financial technology.
-
 I write about things occasionally. You can read that stuff here.
